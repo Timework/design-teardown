@@ -1,0 +1,241 @@
+* {
+    border: 1px solid blue;
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(82, 78, 78, .4);
+}
+.flex {
+    display: flex
+}
+.in-flex {
+    width: 50%;
+    height: 600px;
+}
+.absol {
+    position: absolute;
+    width: 40%;
+    height: 180px;
+    left: 30%;
+    top: 120px;
+    z-index: 2;
+    background-color: rgba(82, 78, 78, 1);
+    overflow: hidden;
+}
+.title {
+    width: 80%;
+    height: 200px;
+    margin: 250px 0 0 30px;
+    background-color: rgba(82, 78, 78, .8);
+    overflow: hidden;
+}
+.title-small {
+    width: 80%;
+    height: 200px;
+    margin: 100px 0 0 30px;
+    background-color: rgba(82, 78, 78, .8);
+    overflow: hidden;
+}
+.title-small-2 {
+    width: 80%;
+    height: 200px;
+    margin: 100px 0 0 30px;
+    background-color: rgba(82, 78, 78, .6);
+    overflow: hidden;
+}
+.in-flex-small {
+    width: 50%;
+    height: 400px;
+}
+.article {
+    width: 33.33%;
+    height: 500px;
+}
+.article-title {
+    margin: 60px auto 0 auto;
+    height: 100px;
+    width: 80%;
+    background-color: rgba(82, 78, 78, .8);
+    overflow: hidden;
+}
+.article-body {
+    margin: 40px auto 0 auto;
+    height: 250px;
+    width: 80%;
+    background-color: rgba(82, 78, 78, .6);
+    overflow: hidden;
+}
+.ad {
+    width: 33.33%;
+    height: 200px;
+    background-color: rgba(82, 78, 78, .8);
+    overflow: hidden;
+}
+.sponser {
+    width: 33.33%;
+    height: 100vh;
+}
+.sponser-logo {
+    margin: 30px auto;
+    width: 80%;
+    height: 200px;
+    background-color: rgba(82, 78, 78, .6);
+    overflow: hidden;
+}
+.sponser-title {
+    margin: 0 auto;
+    width: 80%;
+    height: 150px;
+    background-color: rgba(82, 78, 78, .8);
+    overflow: hidden;
+}
+.sponser-body {
+    margin: 20px auto;
+    width: 80%;
+    height: 250px;
+    background-color: rgba(82, 78, 78, .4);
+    overflow: hidden;
+}
+.big {
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+}
+.big-logo {
+    width: 20%;
+    height: 180px;
+    margin: 60px auto 0 auto;
+    background-color: rgba(82, 78, 78, .6);
+    overflow: hidden;
+}
+.big-title {
+    width: 30%;
+    height: 100px;
+    margin: 40px auto 0 auto;
+    background-color: rgba(82, 78, 78, .8);
+    overflow: hidden;
+}
+.big-body {
+    width: 40%;
+    height: 200px;
+    margin: 30px auto 0 auto;
+    background-color: rgba(82, 78, 78, .4);
+    overflow: hidden;
+}
+.look {
+    width: 15%;
+    height: 50px;
+    margin: 120px auto;
+    background-color: rgba(82, 78, 78, .2);
+    overflow: hidden;
+}
+.full {
+    width: 100%;
+    height: 1100px;
+}
+.full-title {
+    width: 60%;
+    margin: 80px auto 0 auto;
+    height: 150px;
+    background-color: rgba(82, 78, 78, .8);
+    overflow: hidden;
+}
+.full-body {
+    width: 60%;
+    margin: 20px auto 0 auto;
+    height: 250px;
+    background-color: rgba(82, 78, 78, .4);
+    overflow: hidden;
+}
+.full-logo {
+    width: 60%;
+    margin: 50px auto 0 auto;
+    height: 450px;
+    background-color: rgba(82, 78, 78, .6);
+    overflow: hidden;
+}
+.weekly {
+    width: 100%;
+    height: 350px;
+}
+.weekly-logo {
+    width: 30%;
+    height: 350px;
+    background-color: rgba(82, 78, 78, .8);
+    overflow: hidden;
+}
+.weekly-info {
+    width: 70%;
+    height: 350px;
+    background-color: rgba(82, 78, 78, .4);
+    overflow: hidden;
+}
+.person {
+    width: 50%;
+    height: 350px;
+}
+.person-title {
+    width: 70%;
+    height: 50px;
+    margin: 50px auto 0  auto;
+    background-color: rgba(82, 78, 78, .8);
+    overflow: hidden;
+}
+.person-body {
+    width: 70%;
+    height: 200px;
+    margin: 30px auto 0 auto;
+    background-color: rgba(82, 78, 78, .4);
+    overflow: hidden;
+}
+.weekly-title {
+    width: 80%;
+    height: 50px;
+    margin: 50px 0 0 80px;
+    background-color: rgba(82, 78, 78, .8);
+    overflow: hidden;
+}
+.weekly-body {
+    width: 80%;
+    height: 150px;
+    margin: 20px 0 0 80px;
+    background-color: rgba(82, 78, 78, .6);
+    overflow: hidden;
+}
+.sponser-2 {
+    width: 50%;
+    height: 100vh;
+}
+footer {
+    width: 100%;
+    height: 600px;
+}
+.footer-part {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(82, 78, 78, .4);
+    overflow: hidden;
+}
+.footer-flex {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 300px;
+}
+.footer-logo {
+    width: 15%;
+    height: 175px;
+    margin: 0 200px;
+    background-color: rgba(82, 78, 78, .8);
+    overflow: hidden;
+}
+.second {
+    width: 80%;
+    height: 200px;
+    margin: 250px 0 0 30px;
+    background-color: rgba(82, 78, 78, .6);
+    overflow: hidden;
+}
